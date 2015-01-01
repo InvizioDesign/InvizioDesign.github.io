@@ -1,0 +1,122 @@
+@import '../bower_components/font-awesome/scss/font-awesome.scss';
+
+body {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.home-block {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#we-believe {
+  background-image: url('../images/backgrounds/we-believe.jpg');
+  background-size: cover;
+  font-size: 7.5rem;
+  height: 100vh;
+
+  h1 {
+    margin: 0;
+  }
+
+  img {
+    padding-bottom: 25px;
+    width: 100px;
+  }
+}
+
+#philosophy {
+  background-color: #1B3F64;
+  font-size: 2.0rem;
+  height: 50vh;
+
+  h2 {
+    margin: 0;
+  }
+
+  #in-a-philosophy {
+    font-weight: normal;
+  }
+
+  #where {
+    font-weight: 800;
+    font-size: 5.0rem;
+  }
+}
+
+#art {
+  background-image: url('../images/backgrounds/art.jpg');
+  background-size: cover;
+  font-size: 3.5rem;
+  height: 65vh;
+
+  hr {
+    border-bottom: 2px solid #fff;
+    width: 75%;
+  }
+
+  h2, h3 {
+    font-weight: 200;
+    margin-bottom: -15px;
+    margin-top: -20px;
+  }
+
+  h2 {
+    margin-left: auto;
+    margin-right: 15%;
+  }
+
+  h3 {
+    font-size: 2.25rem;
+    margin-left: 15%;
+    margin-right: auto;
+  }
+}
+
+#for-everyone {
+  color: #000;
+  font-size: 2.0rem;
+  height: 50vh;
+
+  h2, h3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-weight: 800;
+    font-size: 4.0rem;
+  }
+
+  h3 {
+    font-weight: 200;
+  }
+}
+
+#invizio-branding {
+  background: #000;
+  height: 50vh;
+  
+  img {
+    max-width: 500px;
+    min-width: 200px;
+    width: 50%;
+  }
+}
+
+.thin {
+  font-weight: 200;
+}
+
+.shadow-box {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.5);
+  display: inline-flex;
+  z-index: 1;
+}
